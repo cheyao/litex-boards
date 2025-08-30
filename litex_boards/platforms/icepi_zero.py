@@ -103,7 +103,6 @@ _io_common = [
         Subsignal("clk",  Pins("P15")),
         Subsignal("cmd",  Pins("N16"), Misc("PULLMODE=UP")),
         Subsignal("data", Pins("P14 R14 M15 M14"), Misc("PULLMODE=UP")),
-        Subsignal("cd", Pins("M16"), Misc("PULLMODE=UP")),
         Misc("SLEWRATE=FAST"),
         IOStandard("LVCMOS33"),
     ),
